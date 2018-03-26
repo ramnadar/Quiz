@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.quiz.QuizActivity"
+    tools:showIn="@layout/activity_quiz">
+
+
+    <LinearLayout
+        android:id="@+id/quizbody"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/radiogroup_background">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:text="What is the national animal of India?"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/group1_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:tag="ans"
+                android:text="Tiger"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group1_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Lion"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group1_radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Monkey"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group1_radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Snake"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/radiogroup_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:text="Which color is at the top of the Indian Flag?"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/group2_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Green"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group2_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Blue"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group2_radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="1"
+                android:text="Red"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group2_radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="ans"
+                android:text="Orange"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/radiogroup_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:text="What is the Capital of India ?"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/group3_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Chennai"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group3_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Mumbai"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group3_radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="ans"
+                android:text="New Delhi"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group3_radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Calcutta"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/radiogroup_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:text='Which Indian festival is called " FESTIVAL OF COLORS "?'
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/group4_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Diwali"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group4_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="1"
+                android:text="Hanukkah"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group4_radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="ans"
+                android:text="Holi"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/group4_radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:tag="0"
+                android:text="Chinese New Year"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
